@@ -26,7 +26,7 @@ public class androidApp
         cap.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
        
         AndroidDriver<AndroidElement> driver=new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
-        driver.get("https://www.cochlear.com/us/en/home");
+        driver.get("https://www.");
         driver.findElement(By.xpath("//*[text()='Menu']")).click();
     }
 }
