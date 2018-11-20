@@ -15,7 +15,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
  * Hello world!
  *
  */
-public class App 
+public class androidApp 
 {
     public static void main( String[] args ) throws MalformedURLException
     {
